@@ -58,6 +58,6 @@
 - `D_Latch`：电平触发，C = 1 时透明
 - `D_FF`：上升沿 D 触发器（课程标准）
 - `s10_D_FF_NegEdge`：下降沿 D 触发器
-- `s09_SR_MasterSlave_FF`：SR 主从触发器（下降沿）
+- `SR_MasterSlave_FF`：SR 主从触发器（下降沿）
 
 在 `D_Latch` 和 `D_FF` 上分别按上面的四步操作，第 2 步就能看出区别。
