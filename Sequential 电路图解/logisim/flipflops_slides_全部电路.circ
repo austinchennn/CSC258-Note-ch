@@ -291,40 +291,6 @@
     <wire from="(730,140)" to="(730,200)"/>
     <wire from="(730,200)" to="(770,200)"/>
   </circuit>
-  <circuit name="s09_SR_MasterSlave_FF">
-    <comp lib="8" loc="(100,30)" name="Text"><a name="text" val="SR master-slave flip-flop: master open while C=1, slave copies it when C falls (negative edge)"/></comp>
-    <comp loc="(340,190)" name="Clocked_SR_Latch"></comp>
-    <comp loc="(560,290)" name="Clocked_SR_Latch"></comp>
-    <comp lib="0" loc="(100,100)" name="Pin"><a name="label" val="S"/><a name="appearance" val="classic"/></comp>
-    <comp lib="0" loc="(100,200)" name="Pin"><a name="label" val="C"/><a name="appearance" val="classic"/></comp>
-    <comp lib="0" loc="(100,400)" name="Pin"><a name="label" val="R"/><a name="appearance" val="classic"/></comp>
-    <comp lib="1" loc="(260,460)" name="NOT Gate"></comp>
-    <comp lib="0" loc="(680,290)" name="Pin"><a name="label" val="Q"/><a name="type" val="output"/><a name="facing" val="west"/><a name="appearance" val="classic"/></comp>
-    <comp lib="0" loc="(680,340)" name="Pin"><a name="label" val="Qn"/><a name="type" val="output"/><a name="facing" val="west"/><a name="appearance" val="classic"/></comp>
-    <wire from="(100,100)" to="(280,100)"/>
-    <wire from="(100,200)" to="(150,200)"/>
-    <wire from="(100,400)" to="(280,400)"/>
-    <wire from="(150,200)" to="(150,460)"/>
-    <wire from="(150,200)" to="(310,200)"/>
-    <wire from="(150,460)" to="(230,460)"/>
-    <wire from="(260,460)" to="(490,460)"/>
-    <wire from="(280,100)" to="(280,190)"/>
-    <wire from="(280,190)" to="(310,190)"/>
-    <wire from="(280,210)" to="(280,400)"/>
-    <wire from="(280,210)" to="(310,210)"/>
-    <wire from="(340,190)" to="(410,190)"/>
-    <wire from="(340,200)" to="(390,200)"/>
-    <wire from="(390,200)" to="(390,310)"/>
-    <wire from="(390,310)" to="(530,310)"/>
-    <wire from="(410,190)" to="(410,290)"/>
-    <wire from="(410,290)" to="(530,290)"/>
-    <wire from="(490,300)" to="(490,460)"/>
-    <wire from="(490,300)" to="(530,300)"/>
-    <wire from="(560,290)" to="(680,290)"/>
-    <wire from="(560,300)" to="(600,300)"/>
-    <wire from="(600,300)" to="(600,340)"/>
-    <wire from="(600,340)" to="(680,340)"/>
-  </circuit>
   <circuit name="SR_MasterSlave_FF">
     <comp loc="(340,190)" name="Clocked_SR_Latch"></comp>
     <comp loc="(560,290)" name="Clocked_SR_Latch"></comp>
@@ -334,7 +300,7 @@
     <comp lib="1" loc="(260,460)" name="NOT Gate"></comp>
     <comp lib="0" loc="(680,290)" name="Pin"><a name="label" val="Q"/><a name="type" val="output"/><a name="facing" val="west"/><a name="appearance" val="classic"/></comp>
     <comp lib="0" loc="(680,340)" name="Pin"><a name="label" val="Qn"/><a name="type" val="output"/><a name="facing" val="west"/><a name="appearance" val="classic"/></comp>
-    <comp lib="8" loc="(100,30)" name="Text"><a name="text" val="SR master-slave flip-flop (negative edge) - used by the T and JK flip-flops"/></comp>
+    <comp lib="8" loc="(100,30)" name="Text"><a name="text" val="SR master-slave flip-flop: master open while C=1, slave copies it when C falls (negative edge). Also used by the T and JK flip-flops"/></comp>
     <wire from="(100,100)" to="(280,100)"/>
     <wire from="(100,200)" to="(150,200)"/>
     <wire from="(100,400)" to="(280,400)"/>
