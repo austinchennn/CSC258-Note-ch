@@ -53,7 +53,7 @@
 
 ## 在 Logisim 里对照
 
-文件：`Sequential 电路图解/logisim/flipflops_slides_全部电路.circ`
+文件：同目录下的 `flipflops_slides_全部电路.circ`
 
 - `D_Latch`：电平触发，C = 1 时透明
 - `D_FF`：上升沿 D 触发器（课程标准）
